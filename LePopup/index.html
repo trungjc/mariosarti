@@ -1,0 +1,51 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<title>LePopup</title>
+		<link rel="stylesheet" href="lepopup.css" type="text/css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript" src="lepopup.js"></script>
+		<script type="text/javascript">
+
+$(function(){
+	$("#autoShow").LePopup({
+		autoShowDelay : 1500,
+		autoCloseDelay : 2500,
+		closeOnEsc: false,
+		closeOnClick: false,
+		closeOnButton: "#clos"
+	});
+	$("#popup").LePopup({
+		skin : "big-shadow"
+	});
+	$("#dynamic").LePopup();
+});
+
+		</script>
+		<style>
+			body{padding:30px;font-family:Arial;}
+			h3{margin-top:0;}
+		</style>
+	</head>
+	
+	<body>		
+		<div id="autoShow">
+			<h3>AutoShow popup</h3>
+			<p>Any important content user need to see immediately</p>
+			<p>AutoClose in 3 seconds...</p><button id="clos">afsd</button>
+		</div>
+		<div id="popup">
+			<h3>LePopup</h3>
+			<p>LePopup is a lightweight not just popup plugin useful for several purposes easy to manage by everyone! It features lite popup as well as initial page load plugin to act like tooltip or advertisement. Try it and you will like it!</p>
+
+		</div>
+		<a href="#popup">Open classic popup!</a>
+		<a href="#autoShow">Open the autoshowed popup!</a>
+		
+		<a id="dynamic" href="test.php?id=5">Load dynamic content</a>
+	</body>
+	
+</html>

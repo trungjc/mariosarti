@@ -1,0 +1,24 @@
+[16-Jun-2015 19:15:34 UTC] PHP Fatal error:  Class 'Walker' not found in /home/mariosa/public_html/wp-includes/nav-menu-template.php on line 16
+[16-Jun-2015 19:15:54 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/mariosa/public_html/wp-includes/default-widgets.php on line 14
+[16-Jun-2015 19:15:55 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/mariosa/public_html/wp-includes/default-filters.php on line 17
+[16-Jun-2015 19:16:13 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/mariosa/public_html/wp-includes/functions.php on line 8
+[16-Jun-2015 19:16:13 UTC] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/mariosa/public_html/wp-includes/functions.php on line 8
+[16-Jun-2015 19:16:13 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mariosa/public_html/wp-includes/functions.php on line 8
+[16-Jun-2015 19:16:21 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/mariosa/public_html/wp-includes/rss.php on line 19
+[16-Jun-2015 19:16:27 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/mariosa/public_html/wp-includes/class-simplepie.php on line 5
+[16-Jun-2015 19:16:27 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/mariosa/public_html/wp-includes/class-simplepie.php on line 5
+[16-Jun-2015 19:16:27 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mariosa/public_html/wp-includes/class-simplepie.php on line 5
+[16-Jun-2015 19:16:44 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/mariosa/public_html/wp-includes/vars.php on line 23
+[16-Jun-2015 19:17:42 UTC] PHP Fatal error:  Class 'IXR_Server' not found in /home/mariosa/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[16-Jun-2015 19:17:46 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/mariosa/public_html/wp-includes/script-loader.php on line 25
+[16-Jun-2015 19:17:46 UTC] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/mariosa/public_html/wp-includes/script-loader.php on line 25
+[16-Jun-2015 19:17:46 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mariosa/public_html/wp-includes/script-loader.php on line 25
+[16-Jun-2015 19:17:58 UTC] PHP Fatal error:  Call to undefined function is_robots() in /home/mariosa/public_html/wp-includes/template-loader.php on line 28
+[16-Jun-2015 19:18:20 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/mariosa/public_html/wp-includes/feed-atom.php on line 8
+[16-Jun-2015 19:18:21 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/mariosa/public_html/wp-includes/feed-rdf.php on line 8
+[16-Jun-2015 19:18:22 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/mariosa/public_html/wp-includes/feed-rss2.php on line 8
+[16-Jun-2015 19:18:27 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/mariosa/public_html/wp-includes/ms-default-filters.php on line 17
+[16-Jun-2015 19:18:32 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/mariosa/public_html/wp-includes/ms-default-constants.php on line 153
+[16-Jun-2015 19:18:50 UTC] PHP Fatal error:  Class 'Walker' not found in /home/mariosa/public_html/wp-includes/category-template.php on line 912
+[16-Jun-2015 19:18:51 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/mariosa/public_html/wp-includes/rss-functions.php on line 8
+[16-Jun-2015 19:18:55 UTC] PHP Fatal error:  Call to undefined function feed_content_type() in /home/mariosa/public_html/wp-includes/feed-rss.php on line 8

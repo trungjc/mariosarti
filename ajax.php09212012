@@ -1,0 +1,100 @@
+<?php
+  if($_GET["s"]=="toowong")
+  {
+	  	#Loading data for Toowong
+		include_once('toowong/wp-config.php');
+		include_once('toowong/wp-includes/wp-db.php');
+		$my_query = new WP_Query('cat=8&showposts=1&orderby=ID&order=DESC');	
+		$data =array();
+		$a=1;			
+		while ($my_query->have_posts()) : $my_query->the_post();
+			$data[$a]["time"] =get_post_meta($post->ID, "time", true);
+			$data[$a]["excerpt"] =get_the_excerpt();
+			$data[$a]["permalink"] =get_permalink();
+			$data[$a]["title"] =get_the_title();
+			$a++;
+		endwhile;
+		 foreach($data as $d){
+			 ?>
+            <div class="box-content">
+                <h4><a href="<?=$d["permalink"]?>"><?=$d["title"]?><a href="<?=$d["permalink"]?>"><span> - <?=$d["time"]?></span></a></h4>
+                <p><?=$d["excerpt"]?></p>
+            </div>
+       
+       <?php }
+  }//end if toowong
+  if($_GET["s"]=="bardon")
+  {
+	  #wp_reset_query();
+		#Loading data for bardon
+		include_once('bardon/wp-config.php');
+		include_once('bardon/wp-includes/wp-db.php');
+		$my_query = new WP_Query('cat=8&showposts=1&orderby=ID&order=DESC');	
+		$datas =array();
+		$a=1;			
+		while ($my_query->have_posts()) : $my_query->the_post();
+			$datas[$a]["time"] =get_post_meta($post->ID, "time", true);
+			$datas[$a]["excerpt"] =get_the_excerpt();
+			$datas[$a]["permalink"] =get_permalink();
+			$datas[$a]["title"] =get_the_title();
+			$a++;
+		endwhile;
+		#wp_reset_query();*/
+		
+	  	foreach($datas as $d){
+			 ?>
+            <div class="box-content">
+                <h4><a href="<?=$d["permalink"]?>"><?=$d["title"]?><a href="<?=$d["permalink"]?>"><span> - <?=$d["time"]?></span></a></h4>
+                <p><?=$d["excerpt"]?></p>
+            </div>
+       
+       <?php }
+  }
+  if($_GET["s"]=="toowongs")
+  {
+	  #Loading data for Toowong
+		include_once('toowong/wp-config.php');
+		include_once('toowong/wp-includes/wp-db.php');
+		$my_query = new WP_Query('cat=8&showposts=1&orderby=ID&order=DESC');	
+		$data =array();
+		$a=1;			
+		while ($my_query->have_posts()) : $my_query->the_post();
+			$data[$a]["time"] =get_post_meta($post->ID, "time", true);
+			$data[$a]["excerpt"] =get_the_excerpt();
+			$data[$a]["permalink"] =get_permalink();
+			$data[$a]["title"] =get_the_title();
+			$a++;
+		endwhile;
+		?>
+        <?php foreach($data as $d){ ?>
+                <h3><?=$d["title"]?></h3>
+                <div><a href="<?=$d["permalink"]?>"><?=$d["time"]?></a></div>
+                <div style="margin-top: 5px;"><a style="font-family: arial;" href="<?=$d["permalink"]?>"><?=$d["excerpt"]?></a></div>
+        <?php } ?>	
+        <?php
+  }
+   if($_GET["s"]=="bardons")
+  {
+	  #wp_reset_query();
+		#Loading data for bardon
+		include_once('bardon/wp-config.php');
+		include_once('bardon/wp-includes/wp-db.php');
+		$my_query = new WP_Query('cat=8&showposts=1&orderby=ID&order=DESC');	
+		$datas =array();
+		$a=1;			
+		while ($my_query->have_posts()) : $my_query->the_post();
+			$datas[$a]["time"] =get_post_meta($post->ID, "time", true);
+			$datas[$a]["excerpt"] =get_the_excerpt();
+			$datas[$a]["permalink"] =get_permalink();
+			$datas[$a]["title"] =get_the_title();
+			$a++;
+		endwhile;
+		 foreach($datas as $d){ ?>
+                <h3><?=$d["title"]?></h3>
+                <div><a href="<?=$d["permalink"]?>"><?=$d["time"]?></a></div>
+                <div style="margin-top: 5px;"><a style="font-family: arial;" href="<?=$d["permalink"]?>"><?=$d["excerpt"]?></a></div>
+                <?php
+         } 	
+
+  }
+?>

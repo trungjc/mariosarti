@@ -1,0 +1,41 @@
+Copyright (c) 2011, Steele Agency Incorporated
+All rights reserved.
+
+Definitions 
+The SOFTWARE PRODUCT is "Easy Restaurant Menu Manager" for WordPress.
+
+The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold.
+
+1. GRANT OF LICENSE. 
+The SOFTWARE PRODUCT is licensed as follows: 
+(a) Installation and Use.
+Steele Agency, Inc grants you the right to install and use copies of the SOFTWARE PRODUCT as purchased.
+(b) Backup Copies.
+You may also make copies of the SOFTWARE PRODUCT as may be necessary for backup and archival purposes.
+(c) You may modify this plugin as long as all copyright notices are left in tack and there is no attempt to claim authorship of code you did not write.
+
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+(a) Maintenance of Copyright Notices.
+You must not remove or alter any copyright notices on any and all copies of the SOFTWARE PRODUCT.
+(b) Distribution.
+You may not distribute registered copies of the SOFTWARE PRODUCT to third parties.
+(c) Prohibition on Reverse Engineering, Decompilation, and Disassembly.
+You may modify the functions this SOFTWARE PRODUCT. 
+(d) Rental.
+You may not rent, lease, resell, or lend the SOFTWARE PRODUCT.
+(e) Support Services.
+Steele Agency, Inc may provide you with support services related to the SOFTWARE PRODUCT ("Support Services"). Any supplemental software code provided to you as part of the Support Services shall be considered part of the SOFTWARE PRODUCT and subject to the terms and conditions of this EULA. 
+(f) Compliance with Applicable Laws.
+You must comply with all applicable laws regarding use of the SOFTWARE PRODUCT.
+(g) You may install and put into production, one copy of the SOFTWARE PRODUCT per purchase.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL Steele Agency Incorporated BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+

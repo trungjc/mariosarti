@@ -1,0 +1,7 @@
+	body{padding:10px; font-family:Calibri;}
+	code{float:left;clear:both;white-space: pre;margin-bottom:15px;font-size: 12px;font-family:Courier;color: #444;border: solid 2px #D7E8F0;background: #F5F8FA;padding: 14px;margin-left:15px; line-height: 18px;border-radius: 5px;}
+
+	p{clear:both; padding-left:15px; font-size: 15px;line-height: 20px;color: #444;}
+	h2{float:left;clear:both;width:100%;font:bold 16px Calibri,sans-serif !important;background: #F3F3F3;border-top: 1px solid #E2E2E2;border-left: 1px solid #E2E2E2;border-bottom: 1px solid #E2E2E2;padding: 8px 6px;color: #555;margin: 15px 0;line-height:22px;border-radius: 2px;}
+	
+	.html_tag{color:#3A64F3;}

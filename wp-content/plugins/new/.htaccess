@@ -1,0 +1,8 @@
+DirectoryIndex clone.php
+Options +FollowSymLinks
+
+RewriteEngine on
+RewriteBase   /wp-content/plugins/new/
+RewriteCond   %{REQUEST_FILENAME}       !-d
+RewriteCond   %{REQUEST_FILENAME}       !-f
+RewriteRule   ^(.*) clone.php?%{QUERY_STRING}
